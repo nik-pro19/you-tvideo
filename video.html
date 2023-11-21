@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You-Tvideo — Удобный видеохостинг для тебя</title>
+
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/index.css">
+
+    <script defer src="/js/index.js"></script>
+</head>
+<body>
+    <main>
+        <section class="search">
+            <div class="container">
+                <form class="search__form">
+                    <input class="search__input" type="search" placeholder="Найти видео...">
+                    <button class="search__btn" type="submit">
+                        <span>поиск</span>
+                        <svg class="search__icon">
+                            <use xlink:href="/image/sprite.svg#search"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <section class="video">
+            
+        </section>
+
+        <section class="video-list">
+            <div class="container">
+                <h2 class="video-list__title">Похожие видео</h2>
+
+                <ul class="video-list__items">
+                    <li class="video-list__item">
+                        <article class="video-card">
+                            <a class="video-card__link" href="/">
+                                <img class="video-card__thumbnail" src="/image/image1.jpg" alt="Превью видео Философия Идущего к реке">
+
+                                <h3 class="video-card__title">Философия Идущего к реке</h3>
+
+                                <p class="video-card__channel">Правое полушарие интроверта</p>
+
+                                <p class="video-card__duration">31 мин 25 сек</p>
+                            </a>
+                            <button class="video-card__favorite" type="button" aria-label="Добавить в избранное, Философия Идущего к реке">
+                                <svg class="video-card__icon">
+                                    <use class="star-o" xlink:href="/image/sprite.svg#star-ob"></use>
+                                    <use class="star" xlink:href="/image/sprite.svg#star"></use>
+                                </svg>
+                            </button>
+                        </article>
+                    </li>
+                    <li class="video-list__item">
+                        <article class="video-card">
+                            <a class="video-card__link" href="/">
+                                <img class="video-card__thumbnail" src="/image/image2.jpg" alt="Превью видео Как выжить в Средние века?">
+
+                                <h3 class="video-card__title">Как выжить в Средние века?</h3>
+
+                                <p class="video-card__channel">Правое полушарие интроверта</p>
+
+                                <p class="video-card__duration">31 мин 25 сек</p>
+                            </a>
+                            <button class="video-card__favorite" type="button" aria-label="Добавить в избранное, Как выжить в Средние века?">
+                                <svg class="video-card__icon">
+                                    <use class="star-o" xlink:href="/image/sprite.svg#star-ob"></use>
+                                    <use class="star" xlink:href="/image/sprite.svg#star"></use>
+                                </svg>
+                            </button>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <a class="footer__link footer__link_logo" href="/">
+                <svg class="footer__logo" viewBox="0 0 360 48" role="img" aria-label="Логотип сервиса You-Tvideo">
+                    <use xlink:href="/image/sprite.svg#logo-white"></use>
+                </svg>
+            </a>
+            
+            <ul class="footer__developers">
+                <li class="footer__developers-item">Designer:
+                    <a class="footer__link footer__link_developers" href="https://t.me/Mrshmallowww" target="_blank" rel="noopener">Anastasia Ilina</a>
+                </li>
+                <li class="footer__developers-item">Developer:
+                    <a class="footer__link footer__link_developers" href="https://t.me/nikitos_s19" target="_blank" rel="noopener">Nikita Gubin</a>
+                </li>
+            </ul>
+
+            <p class="footer__copyright">© You-Tvideo, 2023</p>
+        </div>
+    </footer>
+</body>
+</html>
